@@ -52,9 +52,9 @@ public class LoginActivity extends AppCompatActivity {
                     String UserPassword = userDao.getUserPasswordByName(user);
                     if (password.equals(UserPassword)) {
                         // 校验成功，转跳内部首页
-                        Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        startActivity(intent);
+//                        Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+//                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                        startActivity(intent);
 
                     } else {
                         // 失败给出提示
