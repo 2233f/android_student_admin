@@ -19,4 +19,20 @@
     <string name="title_home">主页</string>
     <string name="title_add">添加</string>
     <string name="title_inspect">搜索</string>
+    <string name="add_student_Info">添加学生信息</string>
+    <string name="student_name">姓名：</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="Gender">性别：</string>
+    <string name="input_Gender">请输入性别</string>
+    <string name="stuClass">年级：</string>
+    <string name="input_stuClass">请输入年级</string>
+    <string name="stuIdCard">学号：</string>
+    <string name="input_stuIdCard">请输入学号</string>
+    <string name="stuDate">入学时间：</string>
+    <string name="input_stuDate">请输入入学时间</string>
+    <string name="verify">确定</string>
+    <string name="stuAge">年龄：</string>
+    <string name="input_stuAge">请输入年龄</string>
+    <string name="man">男</string>
+    <string name="girl">女</string>
 </resources>

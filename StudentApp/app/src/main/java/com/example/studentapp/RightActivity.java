@@ -58,7 +58,7 @@ public class RightActivity extends AppCompatActivity {
                     user.setUserName(userInfo);
                     user.setPassword(password);
                     // stop5：提交数据
-                    userDao.insert(user);
+                    userDao.insert(user); // 用户表中没有添加回调功能
                     ToastUtil.showToast(RightActivity.this, "注册成功！");
                     // stop6：注册成功后，返回登陆页面
                     // 从下级页面获取数据后返回上级应该怎么做？

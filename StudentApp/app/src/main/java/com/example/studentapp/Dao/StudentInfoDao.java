@@ -10,6 +10,7 @@ import java.util.List;
 
 @Dao
 public interface StudentInfoDao {
+
     @Insert
     void insert(StudentInfo studentInfo);
 
