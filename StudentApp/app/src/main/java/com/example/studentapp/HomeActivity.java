@@ -50,6 +50,16 @@ public class HomeActivity extends AppCompatActivity implements StudentAdapter.On
             }
         });
 
+        // search Button
+        findViewById(R.id.search).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // 转跳搜索页面
+                Intent intent = new Intent(HomeActivity.this, SearchActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override

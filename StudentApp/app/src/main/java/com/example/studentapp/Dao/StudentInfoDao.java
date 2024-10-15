@@ -38,5 +38,7 @@ public interface StudentInfoDao {
     void updateStudent(@NonNull String stuName, @NonNull String stuGender, int stuAge,
                        @NonNull String stuClass, @NonNull String stuIdcard, @NonNull String stuDate, int id);
 
+    @Query("SELECT * FROM student_info WHERE stuName LIKE :query || '%' OR stuName LIKE '%'|| :query || '%' OR stuName LIKE '%'|| :query")
+    List<StudentInfo> getStudentsByName(String query);
 }
 
